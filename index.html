@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./images/Cryptoinfologo.png">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Pagina-principal</title>
 </head>
 <body>
@@ -32,79 +34,61 @@
         </div>
       </nav>
 
-    <h1> Arrancando de 0</h1>
+    <h1> CryptoInfo</h1>
 
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/Cryptoinfologo.png" class="d-block w-100" alt="logocryptoinfo">
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./images/noticias/TarjetabinanceNOTICIA1.jpg" class="d-block w-100" alt="binance">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Noticia 1</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./images/noticias/nftxticketsNOTICIA2.png" class="d-block w-100" alt="nftx">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Noticia 2</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./images/noticias/LemonNOTICIA3.png" class="d-block w-100" alt="lemon">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Noticia 3</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
+        <div class="carousel-item">
+          <img src="./images/banner/exchangebanner.jpg" class="d-block w-100" alt="banner">
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
 
-      <div class="card" style="width: 18rem;">
+      <div class="container">
+      <div class="card" class="col-lg-3" style="width: 18rem;">
         <img src="./images/noticias/TarjetabinanceNOTICIA1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Noticia 1</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Visitar</a>
+          <h5 class="card-title">Binance Card Disponible!</h5>
+          <p class="card-text">Binance Card ya está en Argentina y con beneficios</p>
+          <a href="https://www.ambito.com/finanzas/criptomonedas/binance-card-ya-esta-argentina-y-beneficios-n5540606" class="btn btn-primary">Visitar</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="card" class="col-lg-3" style="width: 18rem;">
         <img src="./images/noticias/nftxticketsNOTICIA2.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Noticia 2</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Visitar</a>
+          <h5 class="card-title">TravelX y los Nfts</h5>
+          <p class="card-text">El marketplace de NFTs TravelX despega con tickets de la low cost argentina Flybondi</p>
+          <a href="https://es-us.vida-estilo.yahoo.com/marketplace-nfts-travelx-despega-tickets-134528223.html" class="btn btn-primary">Visitar</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="card" class="col-lg-3" style="width: 18rem;">
         <img src="./images/noticias/LemonNOTICIA3.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Noticia 3</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Visitar</a>
+          <h5 class="card-title">Un Millon para lemon</h5>
+          <p class="card-text">Lemon superó el millón de usuarios y ya devolvió más de 200 millones de pesos en Bitcoin</p>
+          <a href="https://www.ambito.com/negocios/criptomonedas/auge-cripto-argentina-lemon-supero-el-millon-usuarios-y-ya-devolvio-mas-200-millones-pesos-bitcoin-n5422143" class="btn btn-primary">Visitar</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="card" class="col-lg-3" style="width: 18rem;">
         <img src="./images/noticias/merge-ethereumNOTICIA4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Noticia 4</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Visitar</a>
+          <h5 class="card-title">Llego the merge</h5>
+          <p class="card-text">Terminó "The Merge", el cambio más importante en Bitcoin y Ethereum: qué va a pasar con los precios</p>
+          <a href="https://www.cronista.com/infotechnology/criptomonedas/termino-merge-el-cambio-mas-importante-en-bitcoin-y-ethereum-que-va-a-pasar-con-los-precios" class="btn btn-primary">Visitar</a>
         </div>
+      </div>
       </div>
 
       <h2>Valor en tiempo real</h2>
@@ -157,9 +141,15 @@
         </button>
       </div>
 
-
-
+      <footer>
+        <div>
+            <ul>   
+                <il> <a href="https://www.facebook.com/"><img class="icon" src="./images/facebookicon.ico" alt="facebook"></a></il>
+                <il> <a href="https://instagram.com/"><img class="icon" src="./images/instaicon.ico" alt="instagram"></a></il>
+                <il> <a href="https://www.whatsapp.com/?lang=es"><img class="icon"src="./images/whatsappicon.ico" alt="whatsapp"></a></il>
+            <p>Cryptoinfo no es responsable de ninguna pérdida directa, indirecta o secundaria, o de ningún otro daño resultante de las acciones del usuario.</p>
+        </div>
+    </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-
 </body>
 </html>
