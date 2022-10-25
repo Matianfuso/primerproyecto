@@ -66,4 +66,13 @@ footer
     {background-color: black
     ;color: rgb(0, 255, 0);}
 
+.fondonoticias
+    {background-image: url(../images/fondo.png);
+    background-size: 1000px;}
 
+.carousel-inner img 
+    {width: 100%;
+    max-height: 500px;}
+
+.carousel-inner
+    {height: 500px;}
