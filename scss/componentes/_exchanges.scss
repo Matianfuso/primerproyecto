@@ -1,0 +1,24 @@
+.botonbinance
+    {color: nth($colores,3)
+    ;background-color:nth($colores,2);}
+
+.botonbinancefondo  
+    {background-color:nth($colores,2)
+    ;color:nth($colores,3);}
+
+
+.botonkucoin
+    {color:nth($colores,2)
+    ;background-color: nth($colores,4);}
+
+    .botonkucoinfondo
+    {background-color:nth($colores,4)
+    ;color:nth($colores,2);}
+
+.botonlemon
+    {color:nth($colores,2)
+    ;background-color:nth($colores,5);}
+
+.botonlemonfondo
+    {background-color:nth($colores,2)
+    ;color:nth($colores,5);}

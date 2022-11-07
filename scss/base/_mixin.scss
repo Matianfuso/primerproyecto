@@ -1,0 +1,21 @@
+// mixin con parametros
+
+@mixin footerdepagina 
+    {padding-top: 50px;
+    background: nth($colores,6);
+    background: linear-gradient(90deg, rgba(236,235,240,1) 8%, rgba(245,255,0,1) 30%, rgba(231,252,8,1) 60%, rgba(255,255,255,1) 100%)}
+
+
+// mixin sin parametros 
+
+@mixin titulos ($color, $posicion)
+{color:$color;
+text-align: $posicion;
+}
+
+@mixin botonpropio ($bgcolor, $color, $bordercolor)
+{ background-color:$bgcolor;
+color:$color;
+border-color: $bordercolor}
+    
+
