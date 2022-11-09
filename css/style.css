@@ -16,12 +16,6 @@ footer .iconos {
   background-size: 1000px;
   text-align: center;
 }
-.imagenportada .imagenlogo:hover {
-  transform: scale(1.05);
-  transition: all 1.2s;
-  width: 25%;
-  height: 25%;
-}
 
 h1 {
   color: rgb(221, 156, 14);
