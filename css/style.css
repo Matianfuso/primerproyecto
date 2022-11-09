@@ -14,6 +14,7 @@ footer .iconos {
 .imagenportada {
   background-image: url(../images/fondo.png);
   background-size: 1000px;
+  width: 100%;
   text-align: center;
 }
 
